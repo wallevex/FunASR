@@ -32,11 +32,11 @@ parser.add_argument(
 parser.add_argument("--port", type=int, default=1337, required=False, help="html5 server port")
 
 parser.add_argument(
-    "--certfile", type=str, default="./ssl_key/server.crt", required=False, help="certfile for ssl"
+    "--certfile", type=str, default="../ssl_key/server.crt", required=False, help="certfile for ssl"
 )
 
 parser.add_argument(
-    "--keyfile", type=str, default="./ssl_key/server.key", required=False, help="keyfile for ssl"
+    "--keyfile", type=str, default="../ssl_key/server.key", required=False, help="keyfile for ssl"
 )
 
 if __name__ == "__main__":
